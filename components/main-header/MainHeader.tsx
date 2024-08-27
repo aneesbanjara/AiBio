@@ -15,10 +15,8 @@ export default function MainHeader() {
         <Link href={"/"} className="flex justify-center items-center gap-8 no-underline font-extrabold text-white tracking-[0.35rem] uppercase font-['Montserrat',sans-serif]">
         AIBioDiscovery
         </Link>
-        <Link href="/AIBioDiscovery.pdf" locale={false}>Download me</Link>
-        <a href='/AIBioDiscovery.pdf'
-    target="_blank"
-    rel="noopener noreferrer" className="border-2 border-green-700 text-white px-4 py-2 rounded-3xl" download>Download PDF</a>
+        <Link className="border-2 border-green-700 text-white px-4 py-2 rounded-3xl" href="/AIBioDiscovery.pdf" locale={false}>Download me</Link>
+        
       </header>
        </>
     );
